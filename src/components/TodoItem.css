@@ -1,0 +1,31 @@
+.todoWrappeer {
+  border-bottom: 1px solid #efefef;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  font-family: Monoton;
+  font-size: 15px;
+}
+
+.removeTodo {
+  font-family: Monoton;
+  font-size: 15px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+  outline: none;
+  box-shadow: none;
+  border-width: 2px;
+  border-radius: 3px;
+  border-style: solid;
+  padding: 8px;
+  color: black;
+  border-color: rgba(203, 20, 32, 0.4);
+  background-color: white;
+  -webkit-transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.removeTodo:hover{
+  background-color: #f44336;
+  color: white;
+}

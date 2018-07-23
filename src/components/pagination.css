@@ -1,0 +1,22 @@
+.pagination-btn {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.pagination-btn {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid indianred;
+  margin: 0 4px;
+}
+
+.pagination-btn.active {
+    background-color: rgba(73, 204, 249, 1.0);
+    color: white;
+    border: 1px solid rgba(73, 204, 249, 1.0);
+}
+
+.pagination-btn:hover:not(.active) {background-color: rgba(203, 20, 32, 0.4);}
